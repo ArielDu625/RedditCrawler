@@ -5,6 +5,7 @@ import pandas as pd
 import praw
 
 # fill in the authentication information
+# see https://praw.readthedocs.io/en/stable/getting_started/quick_start.html#authorized
 reddit = praw.Reddit(user_agent='',
                      client_id='',
                      client_secret='',
